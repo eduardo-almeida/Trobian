@@ -1,0 +1,7 @@
+__pycache__/
+build
+*.zip
+saves/*.xml
+
+# For those who use PyCharm
+.idea/
