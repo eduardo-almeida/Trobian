@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0c0ffcb8-5a89-4c81-8acf-a3d6dcce1dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/angulo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/_bitmap_font____romulus_by_pix3m-d6aokem.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/alagard_by_pix3m-d6awiwp.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/minya_nouvelle_bd.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/minya_nouvelle_bd_it.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/minya_nouvelle_it.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/minya_nouvelle_rg.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moveTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trobian - estudo/Menu.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Trobian - estudo/Menu.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo angulo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/move.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
@@ -42,10 +51,15 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/angulo.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/move.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.angulo">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Teste">
     <configuration name="Inicio" type="PythonConfigurationType" factoryName="Python">
       <module name="Trobian" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="angulo" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Teste" type="PythonConfigurationType" factoryName="Python">
       <module name="Trobian" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,7 +93,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/angulo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/move.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +103,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.angulo" />
+      <item itemvalue="Python.Teste" />
       <item itemvalue="Python.Inicio" />
     </list>
   </component>
@@ -102,40 +116,65 @@
       <option name="presentableId" value="Default" />
       <updated>1597971217664</updated>
     </task>
+    <task id="LOCAL-00001" summary="Testando git do pycharm">
+      <created>1598128327206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598128327206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Testando git do pycharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testando git do pycharm" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="210" width="1084" height="808" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598128218824">
+    <state x="451" y="210" width="1084" height="832" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598131071023">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="451" y="210" width="1084" height="808" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598128218824" />
+    <state x="451" y="210" width="1084" height="832" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598131071023" />
+    <state x="532" y="100" width="912" height="904" key="CommitChangelistDialog2" timestamp="1598128326394">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="532" y="100" width="912" height="904" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1598128326394" />
     <state x="833" y="294" width="309" height="516" key="EnvironmentVariablesDialog" timestamp="1598116732025">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="833" y="294" width="309" height="516" key="EnvironmentVariablesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598116732025" />
-    <state x="771" y="296" width="424" height="513" key="FileChooserDialogImpl" timestamp="1598128216732">
+    <state x="771" y="296" width="424" height="513" key="FileChooserDialogImpl" timestamp="1598131069223">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="771" y="296" width="424" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1598128216732" />
-    <state width="915" height="278" key="GridCell.Tab.0.bottom" timestamp="1598128014225">
+    <state x="771" y="296" width="424" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1598131069223" />
+    <state width="915" height="278" key="GridCell.Tab.0.bottom" timestamp="1598139330800">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598128014225" />
-    <state width="915" height="278" key="GridCell.Tab.0.center" timestamp="1598128014224">
+    <state width="915" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598139330800" />
+    <state width="915" height="278" key="GridCell.Tab.0.center" timestamp="1598139330799">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598128014224" />
-    <state width="915" height="278" key="GridCell.Tab.0.left" timestamp="1598128014223">
+    <state width="915" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598139330799" />
+    <state width="915" height="278" key="GridCell.Tab.0.left" timestamp="1598139330799">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598128014223" />
-    <state width="915" height="278" key="GridCell.Tab.0.right" timestamp="1598128014225">
+    <state width="915" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598139330799" />
+    <state width="915" height="278" key="GridCell.Tab.0.right" timestamp="1598139330800">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598128014225" />
+    <state width="915" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598139330800" />
     <state width="915" height="344" key="GridCell.Tab.1.bottom" timestamp="1598122961228">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

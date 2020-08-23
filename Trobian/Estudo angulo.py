@@ -22,8 +22,6 @@ pg.display.set_caption("Trobian")
 screen = pg.display.set_mode((400, 400))#,pg.FULLSCREEN, pg.RESIZABLE)
 tela = pg.display.get_surface()
 quit_game = False
-pontos = [(40, 40) ]
-pos = (0,0)
 while not quit_game:
 
     tela.fill(BLUE)
@@ -31,26 +29,29 @@ while not quit_game:
         if event.type == pg.QUIT:
             quit_game = True
         elif event.type == pg.MOUSEMOTION:
+            #start_screen.motion(e.pos)
             e = 0
-            pos = pg.mouse.get_pos()
         elif event.type == pg.MOUSEBUTTONUP:
             if event.button == 1 or event.button == 3:
-                x =0
+                #quit_game = start_screen.click(e.button, e.pos)
+                Mouse_x1, Mouse_y1 = pg.mouse.get_pos()
+                print(pg.mouse.get_pos())
+                dx = Mouse_x2 - Mouse_x1
+                dy = Mouse_y2 - Mouse_y1
+                rads = atan2(-dy, dx)
+                rads %= 2 * pi
+                degs = degrees(rads)
+                print (degs)
+                pos_end = event.pos
+                pg.draw.line(tela, RED, pos_start, pos_end, 2)
         elif event.type == pg.MOUSEBUTTONDOWN:
             if event.button == 1 or event.button == 3:
-                x = 0
-                #pontos.append(pg.mouse.get_pos())
+                Mouse_x2, Mouse_y2 = pg.mouse.get_pos()
+                print(pg.mouse.get_pos())
+                pos_start = event.pos
+                #start_screen.button_down(e.button, e.pos)
         if event.type == KEYDOWN:
             if event.key == K_ESCAPE:
                 quit_game = True
 
-    '''for i in pontos:
-        move_x = pos[0] - i[0]
-        move_y = pos[1] - i[1]
-        x = int(i[0] + move_x * 0.1)  # Scale the vector to the desired length.
-        y = i[1] + move_y * 0.1
-        local = (x, y)
-        pg.draw.circle(screen, GREEN, (x, y), 5)'''
-    heading = pg.mouse.get_pos() - pos
-    pos += heading * 0.1
-    pg.display.flip()
+        pg.display.flip()
